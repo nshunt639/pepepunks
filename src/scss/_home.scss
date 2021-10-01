@@ -1,0 +1,169 @@
+body{background: $bgcolor;color:$textcolor;}
+h1,h2,h3,h4,h5,h6{font-family: $fontheading;}
+header {
+    color: $textcolor;
+    padding: 20px;
+}
+header .navbar-brand {color: $textcolor;font-family: $fontheading;font-style: normal;
+font-weight: 900;
+font-size: 24px;}
+header .nav-link {color: $textcolor;font-weight: 600;
+font-size: 18px;margin-right:70px;}.accordion-body{background:none;color:$textcolor;
+border: 2px solid #A5B99D;margin-top:-22px;
+    box-shadow:none;margin-bottom:20px;} 
+.accordion-button{background:none;color:$textcolor;font-weight: 600;
+font-size: 20px;
+border: 2px solid #A5B99D;
+box-sizing: border-box;margin-bottom:20px;
+border-radius: 4px;}
+.accordion-button:not(.collapsed) {background:none;color:$textcolor;
+border: 2px solid #A5B99D;
+    box-shadow:none;margin-bottom:20px;
+}.accordion-item {
+background:none;
+    border:0;
+}
+
+footer{background: #B1C2A9;padding:40px 80px;}  
+footer strong{font-family:$fontheading;color: $bgcolor;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;}
+footer .nav-link{ color: $bgcolor;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin-top:10px;}
+body{background: $bgcolor;font-family: $fontbody;font-size: 20px;}
+.accordion-header{font-family: $fontbody;}
+.nav-link:hover{color:#638554;}
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+font-style: normal;
+font-weight: 600!important;
+font-size: 18px; 
+background: #77CBA7!important;
+border-radius: 6px;
+color: $textcolor!important;border:0;
+padding:10px 30px!important;max-width:200px!important;  
+}h2{ 
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px; 
+color: $textcolor;} 
+.nav-link:focus, .nav-link:hover
+{color:#638554;}
+.faq-layout{max-width:942px;margin:0 auto}
+h1{font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 84px;
+color: $textcolor;margin-top:100px;}
+.mintsection{padding:10px 50px;}
+.mintsection p{margin:50px 0;}
+.fairsection .col-md-5{margin:0 auto;float:none;text-align:center!important;}
+ 
+.fairsection p {margin:50px 0;}
+.faq {padding:100px 0;}
+.faq-title {margin-bottom:100px;}
+.accordion-button::after {
+    flex-shrink: 0;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    content: ""; 
+    background-repeat: no-repeat;
+    background-size: 90px;
+    transition: transform .2s ease-in-out;
+    right: 0;
+}
+ .accordion-button:not(.collapsed)::after { 
+    transform: rotate(
+-180deg);
+}
+.ourteam {padding:100px 0;padding-bottom:0;}
+.memeber img {z-index: 999999;
+    position: relative;
+    margin-bottom: -30px;
+}.memeber h4{margin-top:30px;font-size: 24px;}
+ .ourteam .col-md-4{float:none;margin:50px auto;}
+ .timep{width: 200px;
+  text-align:center;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;margin:20px 0!important;
+line-height: 43px;}
+
+.punkstext{position: absolute;
+width: 225px;
+height: 234px;
+left: 0;
+top:1464px;
+font-family: $fontheading;
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;
+color:#A5B99D;
+mix-blend-mode: overlay;  
+transform: rotate(90deg);}
+.pepetext{position: absolute;
+width: 255px;
+height: 234px;
+right: 0px;
+top: 960px; 
+font-family: $fontheading;
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;  
+color:#A5B99D; 
+mix-blend-mode: overlay;
+transform: rotate(-90deg);}
+.theroadmap{padding:100px 0;}
+* :focus,
+* :active:focus,
+* .active:focus,
+* .focus,
+* :active.focus,
+* .active.focus {
+    outline: none!important;
+    box-shadow: none!important; 
+}
+ 
+.lprogress{width:250px;text-align:center; }.progress2{border-radius:5px;height:5px!important;  }.bg-success {
+    background-color: #77CBA7!important;
+}.rmbox-row{margin-top:70px;}
+  .rmbox{ 
+border-left: 3px solid #A5B99D; padding:10px 20px; }
+  .rmboximg{margin:20px 0;
+width: 326px;
+height: 221px; 
+background: #A5B99D;
+border-radius: 10px;}
+.rmboximg img
+{ 
+width: 221px;
+height: 221px; 
+border-radius: 10px;}
+.rmboximg span
+{  
+font-family: $fontheading;
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+ top:0;
+display: flex;
+align-items: center;
+text-align: center;
+color: $textcolor;left: 100px;
+    position: relative;
+mix-blend-mode: overlay;    margin-top: -30px;
+transform: rotate(90deg);}

@@ -63,12 +63,12 @@ const Home = (props: HomeProps) => {
                 <p className="timep">  5:43:21</p>
                 <Button variant="contained">Mint NFT</Button> 
                
-              </div>   <div className="col-md-7">  
+              </div>   <div className="col-md-7">                <div className="imgcc"> 
+              <img alt="PepePunkS"  src="single.svg" className="img-fluid" />
 
-              <div className="imgcc"> 
-              <div className="img1cc"> </div>
-              <div className="img2cc"> </div>
-              <div className="img3cc"> </div>
+              <img alt="PepePunkS"  src="1cc.svg" className="img-fluid img1cc" />
+              <img alt="PepePunkS"  src="2cc.svg" className="img-fluid img2cc" />
+              <img alt="PepePunkS"  src="3cc.svg" className="img-fluid img3cc" />
               </div>
             
               </div> </div>  

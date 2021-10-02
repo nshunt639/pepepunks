@@ -1,6 +1,7 @@
 //import Mint from './components/Mint'
 import * as anchor from '@project-serum/anchor'
 import Button from '@mui/material/Button';
+import Slides from 'Slides'
 
 export interface HomeProps {
     candyMachineId: anchor.web3.PublicKey
@@ -18,26 +19,26 @@ const Home = (props: HomeProps) => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg">
               <div className="container-fluid">
-                <a className="navbar-brand" href="/"><img alt="PepePunks" src="pepepunks.png" /> PepePunks</a>
+                <a className="navbar-brand" href="/"><img alt="PepePunks" src="pepepunks.svg" /> PepePunks</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse  justify-content-end" id="navbarNav">
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="/">Fair Distribution
+                      <a className="nav-link active" aria-current="page" href="#FairDistribution">Fair Distribution
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/">Roadmap
+                      <a className="nav-link" href="#Roadmap">Roadmap
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/">Our Team
+                      <a className="nav-link" href="#OurTeam">Our Team
                       </a>
                     </li> 
                     <li className="nav-item">
-                      <a className="nav-link" href="/">FAQ
+                      <a className="nav-link" href="#FAQ">FAQ
                       </a>
                     </li>
                     <li className="nav-item">
@@ -62,37 +63,40 @@ const Home = (props: HomeProps) => {
                 <p className="timep">  5:43:21</p>
                 <Button variant="contained">Mint NFT</Button> 
                
-              </div>   <div className="col-md-7"> 
-                <img alt="PepePunkS"  src="single.svg" className="img-fluid" />
+              </div>   <div className="col-md-7">  
+
+              <div className="imgcc"> 
+              <div className="img1cc"> </div>
+              <div className="img2cc"> </div>
+              <div className="img3cc"> </div>
+              </div>
+            
               </div> </div>  
           </div>
         </section>
         <div className="pepetext">PEPE</div>
-        <section className="fairsection">
+        <section className="fairsection" id="FairDistribution">
           <div className="container-fluid">
             <div className="row">   <div className="col-md-5 text-center"> 
                 <h2>FAIR DISTRIBUTION</h2>
-                <p>There are no bonding curves or price tiers here. Buying a PepePunk costs 1 SOL for everyone. </p> 
-                <Button variant="contained"> View Collection</Button> 
-               
+                <p>There are no bonding curves or price tiers here. Buying a PepePunk costs <b>1 SOL</b> for everyone. </p> 
+                <Button variant="contained"> View Collection</Button>               
          
               </div>    
             </div> </div>  
         </section>
-        <section className="theroadmap">
+        <section className="theroadmap" id="Roadmap">
           <div className="container-fluid">
             <h2 className="text-center">The Roadmap</h2>
-            <div className="row rmbox-row">  <div className="col-md-4"> - </div>  <div className="col-md-4"> 
-                <div className="rmbox">
-                  <h2>10%</h2>
-                  <div className="rmboximg">  <img alt="PepePunkS"  src="r1.svg" /> <span>PP FUND</span></div>
-                  <p>PP fund initiated. PP Hall created for community governance.</p>
-                </div>
-              </div>    
-            </div> </div>  
+            <div className="row rmbox-row">  
+             <div className="col-md-10"> 
+             <Slides/>
+              </div>              
+            </div>            
+             </div>  
         </section>
         <div className="punkstext">PUNKs</div>
-        <section className="ourteam">
+        <section className="ourteam" id="OurTeam">
           <div className="container-fluid text-center">
             <div className="row">   <div className="col-md-12">   
                 <h2>OUR TEAM</h2> 
@@ -142,7 +146,7 @@ const Home = (props: HomeProps) => {
             </div> 
           </div>  
         </section>
-        <section className="faq">  <div className="container-fluid"> 
+        <section className="faq" id="FAQ">  <div className="container-fluid"> 
             <div className="faq-layout">
               <h2 className="text-center faq-title">ANY PEPEPUNK QUESTIONS?</h2>
               <div className="accordion" id="accordionPanelsStayOpenExample">

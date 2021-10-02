@@ -14,14 +14,14 @@ export interface HomeProps {
 
 const Home = (props: HomeProps) => {
     return (
-        <div>
+        <div> <div className="pepetext">PEPE</div> <div className="punkstext">PUNKs</div>
 <header>
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg">
               <div className="container-fluid">
                 <a className="navbar-brand" href="/"><img alt="PepePunks" src="pepepunks.svg" /> PepePunks</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon" />
+                <img alt="PepePunks" src="menu.png" width="48" /> 
                 </button>
                 <div className="collapse navbar-collapse  justify-content-end" id="navbarNav">
                   <ul className="navbar-nav">
@@ -74,7 +74,7 @@ const Home = (props: HomeProps) => {
               </div> </div>  
           </div>
         </section>
-        <div className="pepetext">PEPE</div>
+       
         <section className="fairsection" id="FairDistribution">
           <div className="container-fluid">
             <div className="row">   <div className="col-md-5 text-center"> 
@@ -95,7 +95,7 @@ const Home = (props: HomeProps) => {
             </div>            
              </div>  
         </section>
-        <div className="punkstext">PUNKs</div>
+       
         <section className="ourteam" id="OurTeam">
           <div className="container-fluid text-center">
             <div className="row">   <div className="col-md-12">   

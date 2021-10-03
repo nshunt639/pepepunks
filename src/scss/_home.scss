@@ -7,7 +7,7 @@ header {
 header .navbar-brand {color: $textcolor;font-family: $fontheading;font-style: normal;
 font-weight: 900;
 font-size: 24px;}
-header .nav-link {color: $textcolor;font-weight: 600;
+header .nav-link {color: $textcolor;font-weight: 600;    padding-top: 10px;
 font-size: 18px;margin-right:70px;}.accordion-body{background:none;color:$textcolor;font-size: 20px;
 border: 2px solid #A5B99D;margin-top:-22px;
     box-shadow:none;margin-bottom:20px;} 
@@ -104,7 +104,7 @@ font-size: 36px;margin:20px 0!important;
 line-height: 43px;}
 
 .punkstext{position: absolute; 
-    left: -15%;
+    left: -12%;
     top: 2400px;
 font-family: $fontheading;
 font-style: normal;
@@ -114,8 +114,8 @@ color:#222120;
 mix-blend-mode: overlay;  
 transform: rotate(90deg);}
 .pepetext{position: absolute; 
-    right: -11%;
-    top: 1000px;
+    right: -9%;
+    top: 900px;
 font-family: $fontheading;
 font-style: normal;
 font-weight: 900;

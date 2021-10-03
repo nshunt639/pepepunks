@@ -52,7 +52,7 @@ const Home = (props: HomeProps) => {
         </header>
         <section className="mintsection">
           <div className="container-fluid">
-            <div className="row">   <div className="col-md-5"> 
+            <div className="row">   <div className="col-md-6"> 
                 <h1>PepePunks</h1>
                 <p> PepePunks are <b>10,000</b> hand drawn, randomly generated, pixel pepes. Their traits are pulled from all reaches of the metaverse and include surprising mashupos of <b>350</b> unique attributes all the way down to <b>1 of 1</b> rarities. </p> 
                 <div className="lprogress"> 10,000 / 10,000  
@@ -63,7 +63,7 @@ const Home = (props: HomeProps) => {
                 <p className="timep">  5:43:21</p>
                 <Button variant="contained">Mint NFT</Button> 
                
-              </div>   <div className="col-md-7">                <div className="imgcc"> 
+              </div>   <div className="col-md-6">                <div className="imgcc"> 
               <img alt="PepePunkS"  src="single.svg" className="img-fluid" />
 
               <img alt="PepePunkS"  src="1cc.svg" className="img-fluid img1cc" />
@@ -112,14 +112,14 @@ const Home = (props: HomeProps) => {
               </div>  
             </div> 
             <div className="row">   
-              <div className="col-md-3">    
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">    <img alt="PepePunkS"  src="m1.svg" /><br />
                   <img alt="PepePunkS"  src="member1.svg" />
                   <h4>King Toad</h4>
                   <p>Artist</p>   
                 </div>    
               </div>  
-              <div className="col-md-3">    
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">   
                   <img alt="PepePunkS"  src="m2.svg" /><br />
                   <img alt="PepePunkS"  src="member2.svg" />
@@ -127,7 +127,7 @@ const Home = (props: HomeProps) => {
                   <p>Developer</p>   
                 </div>    
               </div> 
-              <div className="col-md-3">    
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">   <img alt="PepePunkS"  src="m3.svg" /> <br />
                   <img alt="PepePunkS"  src="member3.svg" />
                   <h4>MarksCards
@@ -135,7 +135,7 @@ const Home = (props: HomeProps) => {
                   <p>Developer</p>   
                 </div>    
               </div> 
-              <div className="col-md-3">    
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">   <img alt="PepePunkS"  src="m4.svg" /> <br />
                   <img alt="PepePunkS"  src="member4.svg" />
                   <h4>ALEX</h4>

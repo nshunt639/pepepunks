@@ -90,10 +90,12 @@ color: $textcolor;margin-top:100px;}
     transform: rotate(
 -180deg);
 }
- 
+.memeber img { 
+    margin-top: -30px;
+}
 .memeber img {z-index: 999999;
     position: relative; 
-}.memeber h4{margin-top:30px;font-size: 24px;}
+}.memeber h4{ font-size: 24px;}
  .ourteam .col-md-4{float:none;margin:50px auto;}
  .timep{width: 250px;
   text-align:center;
@@ -234,3 +236,7 @@ button.styles-module_carousel-arrow__26sRw {
     .fairsection{padding-top:20px;}
     .progress-bar-striped{background-image:none!important;}
     .buttonpar{width: 250px;text-align:center;margin:0;}
+    .accordion-button:focus{border-color: #A5B99D;}
+    .ourteam h2 {
+        margin-bottom: 40px;
+    }

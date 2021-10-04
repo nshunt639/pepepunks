@@ -105,7 +105,7 @@ const Home = (props: HomeProps) => {
             <div className="row">   
               <div className="col-md-4">    
                 <div className="memeber">      <img alt="PepePunkS"  src="member.png" /><br />
-                  <img alt="PepePunkS"  src="m.png" />
+                  <img alt="PepePunkS"  className="mimg"  src="m.png" />
               
                   <h4>King Harold</h4>
                   <p>Project Manager</p>   
@@ -115,7 +115,7 @@ const Home = (props: HomeProps) => {
             <div className="row">   
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">         <img alt="PepePunkS"  src="member1.png" /><br />
-                   <img alt="PepePunkS"  src="m1.png" />
+                   <img alt="PepePunkS" className="mimg1" src="m1.png" />
           
                   <h4>King Toad</h4>
                   <p>Artist</p>   
@@ -123,7 +123,7 @@ const Home = (props: HomeProps) => {
               </div>  
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">        <img alt="PepePunkS"  src="member2.png" />
-                <br />  <img alt="PepePunkS"  src="m2.png" />
+                <br />  <img alt="PepePunkS"  className="mimg2"  src="m2.png" />
              
                   <h4>REMAPPER</h4>
                   <p>Developer</p>   
@@ -131,7 +131,7 @@ const Home = (props: HomeProps) => {
               </div> 
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">  <img alt="PepePunkS"  src="member3.png" /><br />
-                   <img alt="PepePunkS"  src="m3.png" /> 
+                   <img alt="PepePunkS"  className="mimg3"  src="m3.png" /> 
                 
                   <h4>MarksCards
                   </h4>
@@ -140,7 +140,7 @@ const Home = (props: HomeProps) => {
               </div> 
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
                 <div className="memeber">   <img alt="PepePunkS"  src="member4.png" />
-                <br />  <img alt="PepePunkS"  src="m4.png" />
+                <br />  <img alt="PepePunkS"  className="mimg4"  src="m4.png" />
                
                   <h4>ALEX</h4>
                   <p>Community Manager 

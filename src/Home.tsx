@@ -54,7 +54,7 @@ const Home = (props: HomeProps) => {
           <div className="container-fluid">
             <div className="row">   <div className="col-md-6"> 
                 <h1>PepePunks</h1>
-                <p> PepePunks are <b>10,000</b> hand drawn, randomly generated, pixel pepes. Their traits are pulled from all reaches of the metaverse and include surprising mashupos of <b>350</b> unique attributes all the way down to <b>1 of 1</b> rarities. </p> 
+                <p> PepePunks are <big>10,000</big> hand drawn, randomly generated, pixel pepes. Their traits are pulled from all reaches of the metaverse and include surprising mashupos of <big>350</big> unique attributes all the way down to <big>1 of 1</big> rarities. </p> 
                 <div className="lprogress"> 10,000 / 10,000  
                   <div className="progress progress2">  
                     <div className="progress-bar progress-bar-striped bg-success progress-bar-animated progressing" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={80} />
@@ -64,11 +64,11 @@ const Home = (props: HomeProps) => {
                 <p className="buttonpar">    <Button variant="contained">Mint NFT</Button> </p>
                
               </div>   <div className="col-md-6">                <div className="imgcc"> 
-              <img alt="PepePunkS"  src="single.svg" className="img-fluid" />
+              <img alt="PepePunkS"  src="single.png" className="img-fluid" />
 
-              <img alt="PepePunkS"  src="1cc.svg" className="img-fluid img1cc" />
-              <img alt="PepePunkS"  src="2cc.svg" className="img-fluid img2cc" />
-              <img alt="PepePunkS"  src="3cc.svg" className="img-fluid img3cc" />
+              <img alt="PepePunkS"  src="1cc.png" className="img-fluid img1cc" />
+              <img alt="PepePunkS"  src="2cc.png" className="img-fluid img2cc" />
+              <img alt="PepePunkS"  src="3cc.png" className="img-fluid img3cc" />
               </div>
             
               </div> </div>  
@@ -79,7 +79,7 @@ const Home = (props: HomeProps) => {
           <div className="container-fluid">
             <div className="row">   <div className="col-md-5 text-center"> 
                 <h2>FAIR DISTRIBUTION</h2>
-                <p>There are no bonding curves or price tiers here. Buying a PepePunk costs <b>1 SOL</b> for everyone. </p> 
+                <p>There are no bonding curves or price tiers here. Buying a PepePunk costs <big>1 SOL</big> for everyone. </p> 
                 <Button variant="contained"> View Collection</Button>               
          
               </div>    

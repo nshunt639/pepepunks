@@ -42,10 +42,8 @@ const theme = createTheme({
                     // height: '100%',
                     // width: '100%'
                 },
-                body: {
-                    fontSize: '20px',
-                    '@media (min-width: 768px)': {
-                        fontSize: '20px'
+                body: { 
+                    '@media (min-width: 768px)': { 
                     },
                     lineHeight: 1.5
                     // height: '100%',
@@ -56,8 +54,7 @@ const theme = createTheme({
                 },
                 p: {
                     fontSize: '20px',
-                    '@media (min-width: 768px)': {
-                        fontSize: '20px'
+                    '@media (min-width: 768px)': { 
                     },
                     lineHeight: 1.5
                 },

@@ -2,13 +2,13 @@ body{background: $bgcolor;color:$textcolor;overflow-x:hidden!important;font-weig
 h1,h2,h3,h4,h5,h6{font-family: $fontheading;}
 header {
     color: $textcolor;
-    padding: 50px;
+    padding: 70px;
 }
 header .navbar-brand {color: $textcolor;font-family: $fontheading;font-style: normal;
 font-weight: 900;
-font-size: 24px;}
+font-size: 34px;}
 header .nav-link {color: $textcolor;font-weight: 600;    padding-top: 10px;
-font-size: 18px;margin-right:70px;}.accordion-body{background:none;color:$textcolor;font-size: 20px;
+font-size: 24px;margin-right:100px;}.accordion-body{background:none;color:$textcolor;font-size: 20px;
 border: 2px solid #A5B99D;margin-top:-22px;
     box-shadow:none;margin-bottom:20px;} 
 .accordion-button{background:none;color:$textcolor;font-weight: 600;
@@ -46,18 +46,23 @@ body{background: $bgcolor;font-family: $fontbody;font-size: 20px;}
 .css-sghohy-MuiButtonBase-root-MuiButton-root{
 font-style: normal;
 font-weight: 600!important;
-font-size: 18px!important;
+font-size: 24px!important;
 background: #77CBA7!important;
 border-radius: 6px;
 color: $textcolor!important;border:0;
-padding:10px 30px!important; 
-height: 50px;     box-shadow: none!important;
+padding:10px 30px!important;    box-shadow: none!important;
 font-family: $fontbody!important;    text-transform: capitalize!important;
+}p {
+    font-size: 30px;
+}
+.rmboximg
+p {
+    font-size: 24px;
 }
 h2{ 
 font-style: normal;
 font-weight: 900;
-font-size: 36px;
+font-size: 46px;
 line-height: 42px; 
 color: $textcolor;} 
 .nav-link:focus, .nav-link:hover
@@ -65,10 +70,10 @@ color: $textcolor;}
 .faq-layout{max-width:942px;margin:0 auto}
 h1{font-style: normal;
 font-weight: 900;
-font-size: 72px;
+font-size: 92px;
 line-height: 84px;
 color: $textcolor;}
-.mintsection{padding-left:70px;padding-right:50px;padding-bottom: 130px;overflow: hidden;}
+.mintsection{padding-left:120px;padding-right:90px;padding-bottom: 130px;overflow: hidden;}
 .mintsection p{margin:50px 0;}
 .fairsection .col-md-5{margin:0 auto;float:none;text-align:center!important;}
 .faq{padding:100px 0;}
@@ -97,15 +102,15 @@ color: $textcolor;}
     position: relative; 
 }.memeber h4{ font-size: 24px;}
  .ourteam .col-md-4{float:none;margin:50px auto;}
- .timep{width: 250px;
+ .timep{width: 350px;
   text-align:center;
 font-style: normal;
 font-weight: 800;
-font-size: 36px!important;margin:30px 0!important;
+font-size: 46px!important;margin:30px 0!important;
 line-height: 43px;}
 
 .punkstext{position: absolute; 
-    left: -12%;
+    left: -7%;
     top: 2400px;
 font-family: $fontheading;
 font-style: normal;
@@ -115,8 +120,8 @@ color:#222120;
 mix-blend-mode: overlay;  
 transform: rotate(90deg);}
 .pepetext{position: absolute; 
-    right: -9%;
-    top: 900px;
+    right: -3%;
+    top: 1000px;
 font-family: $fontheading;
 font-style: normal;
 font-weight: 900;
@@ -135,7 +140,7 @@ transform: rotate(-90deg);}
     box-shadow: none!important; 
 }
  
-.lprogress{width:250px;text-align:center; }.progress2{border-radius:5px;height:5px!important;  }.bg-success {
+.lprogress{width:350px;text-align:center; }.progress2{border-radius:5px;height:5px!important;  }.bg-success {
     background-color: #77CBA7!important;
 }.rmbox-row{margin-top:70px;}
 .rmbox-row .col-md-10{margin:0 auto; float:none;}
@@ -236,4 +241,7 @@ button.styles-module_carousel-arrow__26sRw {
         margin-top: 10px;
     }.imgcc { 
         margin-top: -30px;
+    }.buttonpar .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        width: 350px !important;
+        padding: 20px!important;
     }

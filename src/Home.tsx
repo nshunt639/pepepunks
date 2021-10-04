@@ -66,9 +66,11 @@ const Home = (props: HomeProps) => {
               </div>   <div className="col-md-6">                <div className="imgcc"> 
               <img alt="PepePunkS"  src="single.png" className="img-fluid" />
 
-              <img alt="PepePunkS"  src="1cc.png" className="img-fluid img1cc" />
-              <img alt="PepePunkS"  src="2cc.png" className="img-fluid img2cc" />
-              <img alt="PepePunkS"  src="3cc.png" className="img-fluid img3cc" />
+             <div className="img1cc">       <img alt="PepePunkS"  src="1cc.png" className="img-fluid" /> </div>
+              
+             <div className="img2cc">  <img alt="PepePunkS"  src="2cc.png" className="img-fluid" /> </div>
+             
+             <div className="img3cc">   <img alt="PepePunkS"  src="3cc.png" className="img-fluid" /> </div>
               </div>
             
               </div> </div>  

@@ -17,8 +17,8 @@
 		line-height: 54px;
 		margin-top: 50px;
 	}
-	.styles-module_item-container__a8zaY {
-		width: 320px !important;margin-left: 50px;
+	 	.styles-module_item-container__a8zaY {
+		width: 320px !important; margin-left: 50px;
 	}
 	.rmboximg {
 		margin: 20px 0;
@@ -219,5 +219,15 @@
             font-size: 16px;}
             footer .justify-content-end {
                 justify-content: center!important;
-            }
+            }.styles-module_item-container__a8zaY {
+				width: 320px !important;
+				margin-left: 150px;
+			}
     }
+
+
+	@media only screen and (max-width:400px) {
+	.styles-module_item-container__a8zaY {
+		width: 300px !important; 
+	}
+}

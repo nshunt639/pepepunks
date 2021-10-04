@@ -61,7 +61,7 @@ const Home = (props: HomeProps) => {
                   </div>
                 </div>  
                 <p className="timep">  5:43:21</p>
-                <Button variant="contained">Mint NFT</Button> 
+                <p className="buttonpar">    <Button variant="contained">Mint NFT</Button> </p>
                
               </div>   <div className="col-md-6">                <div className="imgcc"> 
               <img alt="PepePunkS"  src="single.svg" className="img-fluid" />
@@ -104,8 +104,9 @@ const Home = (props: HomeProps) => {
             </div>  
             <div className="row">   
               <div className="col-md-4">    
-                <div className="memeber">    <img alt="PepePunkS"  src="m.svg" /><br />
-                  <img alt="PepePunkS"  src="member.svg" />
+                <div className="memeber">      <img alt="PepePunkS"  src="member.png" /><br />
+                  <img alt="PepePunkS"  src="m.png" />
+              
                   <h4>King Harold</h4>
                   <p>Project Manager</p>   
                 </div>    
@@ -113,31 +114,34 @@ const Home = (props: HomeProps) => {
             </div> 
             <div className="row">   
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
-                <div className="memeber">    <img alt="PepePunkS"  src="m1.svg" /><br />
-                  <img alt="PepePunkS"  src="member1.svg" />
+                <div className="memeber">         <img alt="PepePunkS"  src="member1.png" /><br />
+                   <img alt="PepePunkS"  src="m1.png" />
+          
                   <h4>King Toad</h4>
                   <p>Artist</p>   
                 </div>    
               </div>  
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
-                <div className="memeber">   
-                  <img alt="PepePunkS"  src="m2.svg" /><br />
-                  <img alt="PepePunkS"  src="member2.svg" />
+                <div className="memeber">        <img alt="PepePunkS"  src="member2.png" />
+                <br />  <img alt="PepePunkS"  src="m2.png" />
+             
                   <h4>REMAPPER</h4>
                   <p>Developer</p>   
                 </div>    
               </div> 
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
-                <div className="memeber">   <img alt="PepePunkS"  src="m3.svg" /> <br />
-                  <img alt="PepePunkS"  src="member3.svg" />
+                <div className="memeber">  <img alt="PepePunkS"  src="member3.png" /><br />
+                   <img alt="PepePunkS"  src="m3.png" /> 
+                
                   <h4>MarksCards
                   </h4>
                   <p>Developer</p>   
                 </div>    
               </div> 
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">    
-                <div className="memeber">   <img alt="PepePunkS"  src="m4.svg" /> <br />
-                  <img alt="PepePunkS"  src="member4.svg" />
+                <div className="memeber">   <img alt="PepePunkS"  src="member4.png" />
+                <br />  <img alt="PepePunkS"  src="m4.png" />
+               
                   <h4>ALEX</h4>
                   <p>Community Manager 
                   </p>   

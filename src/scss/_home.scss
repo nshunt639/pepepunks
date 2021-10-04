@@ -92,11 +92,10 @@ color: $textcolor;margin-top:100px;}
 }
  
 .memeber img {z-index: 999999;
-    position: relative;
-    margin-bottom: -30px;
+    position: relative; 
 }.memeber h4{margin-top:30px;font-size: 24px;}
  .ourteam .col-md-4{float:none;margin:50px auto;}
- .timep{width: 200px;
+ .timep{width: 250px;
   text-align:center;
 font-style: normal;
 font-weight: 800;
@@ -233,3 +232,5 @@ button.styles-module_carousel-arrow__26sRw {
         100% { transform: translateY(-10px); }
     }
     .fairsection{padding-top:20px;}
+    .progress-bar-striped{background-image:none!important;}
+    .buttonpar{width: 250px;text-align:center;margin:0;}

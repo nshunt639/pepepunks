@@ -1,3 +1,6 @@
+@media only screen and (max-width:1440px) {
+
+}
 @media only screen and (max-width:1366px) {
 	.punkstext {
 		left: -10%;
@@ -12,11 +15,7 @@
 	header {
 		padding: 30px;
 	}
-	h1 {
-		font-size: 58px;
-		line-height: 54px;
-		margin-top: 50px;
-	}
+
 	 	.styles-module_item-container__a8zaY {
 		width: 320px !important; margin-left: 50px;
 	}
@@ -30,6 +29,8 @@
 		width: 200px;
 		height: 181px;
 		border-radius: 10px;
+	}header .nav-link { 
+		margin-right: 50px;
 	}
 	
 }
@@ -54,7 +55,6 @@
 	h1 {
 		font-size: 52px;
 		line-height: 54px;
-		margin-top: 50px;
 	}
 	.styles-module_item-container__a8zaY {
 		width: 400px!important;
@@ -65,11 +65,13 @@
 }
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) {.imgcc { 
+	margin-top: 20px;
+}
 	.mintsection {
 		padding: 20px;
 		padding-bottom: 100px;
-		padding-top: 0;
+		padding-top: 60px;
 	}
 	.punkstext {
 		top: 1680px;
@@ -133,7 +135,10 @@
 	}
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px) { .timep { 
+    margin: 10px 0 !important;}.memeber {
+		margin-bottom: 60px;
+	}
 	.punkstext,
 	.pepetext {
 		display: none;
@@ -230,4 +235,8 @@
 	.styles-module_item-container__a8zaY {
 		width: 300px !important; 
 	}
+}
+
+@media only screen and (min-width:1441px) {
+
 }

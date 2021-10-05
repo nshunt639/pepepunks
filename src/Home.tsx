@@ -158,11 +158,11 @@ const Home = (props: HomeProps) => {
               <div className="accordion" id="accordionPanelsStayOpenExample">
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
                       What are the benefits of owning a PepePunk?
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                     <div className="accordion-body">
                       Holders are entitled to a membership that will provide them with special perks &amp; exclusive benefits such as exclusive partnership mints &amp; future collaborative incentives beyond the pepeverse.
                     </div>

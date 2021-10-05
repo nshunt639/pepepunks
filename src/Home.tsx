@@ -1,18 +1,7 @@
-//import Mint from './components/Mint'
-import * as anchor from '@project-serum/anchor'
 import Button from '@mui/material/Button';
 import Slides from 'Slides'
 
-export interface HomeProps {
-    candyMachineId: anchor.web3.PublicKey
-    config: anchor.web3.PublicKey
-    connection: anchor.web3.Connection
-    startDate: number
-    treasury: anchor.web3.PublicKey
-    txTimeout: number
-}
-
-const Home = (props: HomeProps) => {
+const Home = () => {
     return (
         <div> <div className="pepetext">PEPE</div> <div className="punkstext">PUNKs</div>
 <header>

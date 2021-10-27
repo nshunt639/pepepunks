@@ -143,7 +143,7 @@ const Mint = (props: MintProps) => {
         <Box className="mint-wrapper">
             {remainingCount} / {availableCount}
             <Box marginTop={1}>
-                <ProgressBar completed={Math.round((remainingCount / availableCount) * 100)} />
+                <ProgressBar completed={Math.round(((availableCount - remainingCount) / availableCount) * 100)} />
             </Box>
             {wallet.connected && !isSoldOut && !isActive && (
                 <Countdown

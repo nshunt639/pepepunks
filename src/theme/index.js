@@ -6,10 +6,8 @@ import MuiButton from './overrides/MuiButton'
 const theme = createTheme({
     palette: {
         primary: {
-            light: '#B54C4C',
-            main: '#8d2e2e',
-            dark: '#812525',
-            contrastText: '#c8bdb9'
+            main: '#77CBA7',
+            // contrastText: '#fff'
         },
         // secondary: {},
         background: {
@@ -20,10 +18,6 @@ const theme = createTheme({
         text: {
             primary: '#222120'
         },
-        action: {
-            disabledBackground: '#8d2e2e66',
-            disabled: '#c8bdb966'
-        }
     },
     // shape: {},
     // shadows: ['none'],
@@ -53,9 +47,7 @@ const theme = createTheme({
                     textDecoration: 'none'
                 },
                 p: {
-                    fontSize: '20px',
-                    '@media (min-width: 768px)': { 
-                    },
+                    fontSize: 20,
                     lineHeight: 1.5
                 },
                 '#root': {

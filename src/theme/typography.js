@@ -1,9 +1,6 @@
 const typegraphy = {
     fontFamily: '"SF Pro Text Regular',
-    fontSize: '20px',
-    '@media (min-width: 768px)': {
-        fontSize: '18pt'
-    },
+    fontSize: 20,
     lineHeight: 1.5,
     h1: {
         fontWeight: 500,

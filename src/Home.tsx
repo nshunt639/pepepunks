@@ -379,7 +379,7 @@ const Home = (props: HomeProps) => {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
+                                    <a className="nav-link" href="https://discord.gg/DqxGXBQBpz">
                                         Discord
                                     </a>
                                 </li>
@@ -389,7 +389,7 @@ const Home = (props: HomeProps) => {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
+                                    <a className="nav-link" href="https://twitter.com/pepepunksnft">
                                         Twitter
                                     </a>
                                 </li>

@@ -96,7 +96,7 @@ const Home = (props: HomeProps) => {
                             <p>
                                 PepePunks are <big>10,000</big> hand drawn, randomly generated,
                                 pixel pepes. Their traits are pulled from all reaches of the
-                                metaverse and include surprising mashupos of <big>350</big> unique
+                                metaverse and include surprising mashups of <big>350</big> unique
                                 attributes all the way down to <big>1 of 1</big> rarities.
                             </p>
                             <Mint {...props} />
@@ -128,7 +128,7 @@ const Home = (props: HomeProps) => {
                             <h2>FAIR DISTRIBUTION</h2>
                             <p>
                                 There are no bonding curves or price tiers here. Buying a PepePunk
-                                costs <big>1 SOL</big> for everyone.
+                                costs <big>0.25 SOL</big> for everyone.
                             </p>
                             <Button variant="contained" color="primary">
                                 {' '}
@@ -332,9 +332,7 @@ const Home = (props: HomeProps) => {
                                     aria-labelledby="panelsStayOpen-headingG"
                                 >
                                     <div className="accordion-body">
-                                        We have selected careful roll outs and have a big surprise
-                                        post launch so we have decided to go within 24 hours post
-                                        launch until your PepePunk will be revealed on SolSea.
+                                        Your PepePunk will be revealed instantly after minting!
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +355,7 @@ const Home = (props: HomeProps) => {
                                     aria-labelledby="panelsStayOpen-headingJ"
                                 >
                                     <div className="accordion-body">
-                                        It will cost 1 SOL + gas to mint a PepePunk.
+                                        It will cost 0.25 SOL + gas to mint a PepePunk.
                                     </div>
                                 </div>
                             </div>

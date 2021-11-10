@@ -363,6 +363,17 @@ const Home = (props: HomeProps) => {
                     </div>
                 </div>
             </section>
+            <section className="partners" id="partners">
+                <div className="container-fluid text-center">
+                    <div className="">
+                            <h2>Partners</h2>
+                    </div>
+                    <div className="partners-body">
+                        As seen on&nbsp;
+                        <img height='48' src="/nft-sol-calendar-black.png" alt="NFT SOL Calendar" />
+                    </div>
+                </div>
+            </section>
             <footer>
                 <div className="container-fluid">
                     <div className="row">

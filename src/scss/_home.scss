@@ -62,6 +62,7 @@ header .nav-link {
 }
 
 footer {
+    margin-top: 100px;
     background: #b1c2a9;
     padding: 40px 80px;
 }
@@ -151,7 +152,7 @@ h1 {
     text-align: center !important;
 }
 .faq {
-    padding: 100px 0;
+    // padding: 100px 0;
 }
 .fairsection p {
     margin: 50px 0;
@@ -159,6 +160,13 @@ h1 {
 .faq-title {
     margin-bottom: 100px;
 }
+.partners {
+    // padding: 100px 0;
+}
+.partners-body {
+    margin-top: 40px;
+}
+
 .accordion-button::after {
     flex-shrink: 0;
     position: absolute;

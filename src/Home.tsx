@@ -393,8 +393,8 @@ const Home = (props: HomeProps) => {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">
-                                        Solsea
+                                    <a className="nav-link" href="https://magiceden.io/">
+                                        Magic Eden
                                     </a>
                                 </li>
                                 <li className="nav-item">

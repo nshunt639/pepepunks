@@ -157,7 +157,7 @@ const Mint = (props: MintProps) => {
                 <Button
                     variant="contained"
                     color="primary"
-                    disabled={isSoldOut || isMinting || !isActive}
+                    disabled={true || isSoldOut || isMinting || !isActive}
                     onClick={handleMint}
                 >
                     {isSoldOut ? 'SOLD OUT' : 'Mint NFT'}
